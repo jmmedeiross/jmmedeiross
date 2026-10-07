@@ -1,0 +1,488 @@
+[
+  {
+    "id": "SRV-001",
+    "servico": "Botox/selagem/progressiva — capa longo",
+    "valor_cobrado_cliente_brl": "100.00",
+    "valor_recebido_atendente_brl": "30.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-002",
+    "servico": "Botox/selagem/progressiva — capa/franja",
+    "valor_cobrado_cliente_brl": "150.00",
+    "valor_recebido_atendente_brl": "45.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-003",
+    "servico": "Botox/selagem/progressiva — capa + contorno",
+    "valor_cobrado_cliente_brl": "200.00",
+    "valor_recebido_atendente_brl": "60.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-004",
+    "servico": "Botox/selagem/progressiva — contorno",
+    "valor_cobrado_cliente_brl": "250.00",
+    "valor_recebido_atendente_brl": "75.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-005",
+    "servico": "Botox/selagem/progressiva — curtos",
+    "valor_cobrado_cliente_brl": "300.00",
+    "valor_recebido_atendente_brl": "90.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-006",
+    "servico": "Botox/selagem/progressiva — longos",
+    "valor_cobrado_cliente_brl": "350.00",
+    "valor_recebido_atendente_brl": "105.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-007",
+    "servico": "Botox/selagem/progressiva — longos e cheios",
+    "valor_cobrado_cliente_brl": "400.00",
+    "valor_recebido_atendente_brl": "120.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-008",
+    "servico": "Botox/selagem/progressiva — médios",
+    "valor_cobrado_cliente_brl": "450.00",
+    "valor_recebido_atendente_brl": "135.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-009",
+    "servico": "Color + descoloração global mega",
+    "valor_cobrado_cliente_brl": "500.00",
+    "valor_recebido_atendente_brl": "150.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-010",
+    "servico": "Coloração global Joico",
+    "valor_cobrado_cliente_brl": "100.00",
+    "valor_recebido_atendente_brl": "30.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-011",
+    "servico": "Coloração global Joico — cabelos grandes/cheios",
+    "valor_cobrado_cliente_brl": "150.00",
+    "valor_recebido_atendente_brl": "45.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-012",
+    "servico": "Coloração global mega",
+    "valor_cobrado_cliente_brl": "200.00",
+    "valor_recebido_atendente_brl": "60.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-013",
+    "servico": "Coloração sobrancelhas",
+    "valor_cobrado_cliente_brl": "250.00",
+    "valor_recebido_atendente_brl": "75.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-014",
+    "servico": "Cor mega (a pedido Jaque)",
+    "valor_cobrado_cliente_brl": "40.00",
+    "valor_recebido_atendente_brl": "40.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-015",
+    "servico": "Correção de fundo / decapagem",
+    "valor_cobrado_cliente_brl": "350.00",
+    "valor_recebido_atendente_brl": "105.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-016",
+    "servico": "Correção de fundo",
+    "valor_cobrado_cliente_brl": "400.00",
+    "valor_recebido_atendente_brl": "120.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-017",
+    "servico": "Corte",
+    "valor_cobrado_cliente_brl": "450.00",
+    "valor_recebido_atendente_brl": "135.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-018",
+    "servico": "Corte de pontas + escova",
+    "valor_cobrado_cliente_brl": "500.00",
+    "valor_recebido_atendente_brl": "150.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-019",
+    "servico": "Decapagem",
+    "valor_cobrado_cliente_brl": "100.00",
+    "valor_recebido_atendente_brl": "30.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-020",
+    "servico": "Detox",
+    "valor_cobrado_cliente_brl": "150.00",
+    "valor_recebido_atendente_brl": "45.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-021",
+    "servico": "Detox + reconstrução",
+    "valor_cobrado_cliente_brl": "200.00",
+    "valor_recebido_atendente_brl": "60.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-022",
+    "servico": "Detox + reconstrução mega",
+    "valor_cobrado_cliente_brl": "250.00",
+    "valor_recebido_atendente_brl": "75.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-023",
+    "servico": "Escova Joico — lisa ou modelada",
+    "valor_cobrado_cliente_brl": "250.00",
+    "valor_recebido_atendente_brl": "75.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-024",
+    "servico": "Hidratação",
+    "valor_cobrado_cliente_brl": "180.00",
+    "valor_recebido_atendente_brl": "54.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-025",
+    "servico": "Lavagem de cabelos",
+    "valor_cobrado_cliente_brl": "400.00",
+    "valor_recebido_atendente_brl": "120.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-026",
+    "servico": "Matização",
+    "valor_cobrado_cliente_brl": "450.00",
+    "valor_recebido_atendente_brl": "135.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-027",
+    "servico": "Mechas — apenas capa — cabelo curto",
+    "valor_cobrado_cliente_brl": "500.00",
+    "valor_recebido_atendente_brl": "150.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-028",
+    "servico": "Mechas — apenas capa — cabelo longo",
+    "valor_cobrado_cliente_brl": "100.00",
+    "valor_recebido_atendente_brl": "30.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-029",
+    "servico": "Mechas — apenas capa — cabelo médio",
+    "valor_cobrado_cliente_brl": "150.00",
+    "valor_recebido_atendente_brl": "45.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-030",
+    "servico": "Mechas — apenas capa — longo e cheio",
+    "valor_cobrado_cliente_brl": "200.00",
+    "valor_recebido_atendente_brl": "60.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-031",
+    "servico": "Mechas — capa + contorno",
+    "valor_cobrado_cliente_brl": "250.00",
+    "valor_recebido_atendente_brl": "75.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-032",
+    "servico": "Mechas — contorno",
+    "valor_cobrado_cliente_brl": "300.00",
+    "valor_recebido_atendente_brl": "90.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-033",
+    "servico": "Mechas cabelo todo — curtos",
+    "valor_cobrado_cliente_brl": "350.00",
+    "valor_recebido_atendente_brl": "105.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-034",
+    "servico": "Mechas cabelo todo — longo",
+    "valor_cobrado_cliente_brl": "1200.00",
+    "valor_recebido_atendente_brl": "360.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-035",
+    "servico": "Mechas cabelo todo — médio",
+    "valor_cobrado_cliente_brl": "450.00",
+    "valor_recebido_atendente_brl": "135.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-036",
+    "servico": "Mechas cabelos longos cheios",
+    "valor_cobrado_cliente_brl": "500.00",
+    "valor_recebido_atendente_brl": "150.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-037",
+    "servico": "Mechas no mega hair",
+    "valor_cobrado_cliente_brl": "100.00",
+    "valor_recebido_atendente_brl": "30.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-038",
+    "servico": "Nutrição + escova",
+    "valor_cobrado_cliente_brl": "150.00",
+    "valor_recebido_atendente_brl": "45.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-039",
+    "servico": "Pacote — cronograma Restore",
+    "valor_cobrado_cliente_brl": "200.00",
+    "valor_recebido_atendente_brl": "60.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-040",
+    "servico": "Pacote — escova Joico",
+    "valor_cobrado_cliente_brl": "250.00",
+    "valor_recebido_atendente_brl": "75.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-041",
+    "servico": "Pacote — hidratação Moisture Recovery + Color Therapy",
+    "valor_cobrado_cliente_brl": "300.00",
+    "valor_recebido_atendente_brl": "90.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-042",
+    "servico": "Pré e pós química",
+    "valor_cobrado_cliente_brl": "350.00",
+    "valor_recebido_atendente_brl": "105.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-043",
+    "servico": "Pré-pigmentação",
+    "valor_cobrado_cliente_brl": "400.00",
+    "valor_recebido_atendente_brl": "120.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-044",
+    "servico": "Progressiva",
+    "valor_cobrado_cliente_brl": "450.00",
+    "valor_recebido_atendente_brl": "135.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-045",
+    "servico": "Reconstrução",
+    "valor_cobrado_cliente_brl": "500.00",
+    "valor_recebido_atendente_brl": "150.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-046",
+    "servico": "Reconstrução mega",
+    "valor_cobrado_cliente_brl": "100.00",
+    "valor_recebido_atendente_brl": "30.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-047",
+    "servico": "Remoção de cor curto",
+    "valor_cobrado_cliente_brl": "150.00",
+    "valor_recebido_atendente_brl": "45.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-048",
+    "servico": "Remoção de cor médio",
+    "valor_cobrado_cliente_brl": "200.00",
+    "valor_recebido_atendente_brl": "60.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-049",
+    "servico": "Remoção de cor longo",
+    "valor_cobrado_cliente_brl": "250.00",
+    "valor_recebido_atendente_brl": "75.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-050",
+    "servico": "Retoque coloração",
+    "valor_cobrado_cliente_brl": "300.00",
+    "valor_recebido_atendente_brl": "90.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-051",
+    "servico": "Selagem mega",
+    "valor_cobrado_cliente_brl": "350.00",
+    "valor_recebido_atendente_brl": "105.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-052",
+    "servico": "Tonalização",
+    "valor_cobrado_cliente_brl": "400.00",
+    "valor_recebido_atendente_brl": "120.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-053",
+    "servico": "Tonalização no mega",
+    "valor_cobrado_cliente_brl": "450.00",
+    "valor_recebido_atendente_brl": "135.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  },
+  {
+    "id": "SRV-054",
+    "servico": "Tonalização global",
+    "valor_cobrado_cliente_brl": "500.00",
+    "valor_recebido_atendente_brl": "150.00",
+    "origem": "Catálogo fictício de demonstração",
+    "status": "Demonstração; não usar na operação do salão",
+    "observacoes": "Valor fictício para estudo e testes; não representa a tabela operacional do salão."
+  }
+]

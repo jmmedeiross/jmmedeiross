@@ -1,0 +1,50 @@
+services:
+  app:
+    build: ..
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      JAQ_REMOTE_HOSTING: "true"
+      JAQ_DATA_DIR: /data
+      JAQ_TRUSTED_PROXY: 172.30.84.2
+      AllowedHosts: ${JAQ_DOMAIN:?Defina JAQ_DOMAIN no arquivo .env}
+    volumes:
+      - ./data:/data
+    networks:
+      - salon
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+  https:
+    image: caddy:2
+    restart: unless-stopped
+    environment:
+      JAQ_DOMAIN: ${JAQ_DOMAIN:?Defina JAQ_DOMAIN no arquivo .env}
+      JAQ_TLS_EMAIL: ${JAQ_TLS_EMAIL:?Defina JAQ_TLS_EMAIL no arquivo .env}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - certificates:/data
+      - caddy_config:/config
+    networks:
+      salon:
+        ipv4_address: 172.30.84.2
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+networks:
+  salon:
+    ipam:
+      config:
+        - subnet: 172.30.84.0/24
+volumes:
+  certificates:
+  caddy_config:

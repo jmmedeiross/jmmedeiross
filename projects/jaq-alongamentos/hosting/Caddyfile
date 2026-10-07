@@ -1,0 +1,11 @@
+{
+    email {$JAQ_TLS_EMAIL}
+    admin off
+}
+
+{$JAQ_DOMAIN} {
+    request_body {
+        max_size 1MB
+    }
+    reverse_proxy app:8080
+}

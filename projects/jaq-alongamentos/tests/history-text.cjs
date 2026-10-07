@@ -1,0 +1,11 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../wwwroot/app.js'),'utf8');
+const helper=source.slice(source.indexOf('function auditText('),source.indexOf('function toast('));
+const context={roleNames:{owner:'Dona',manager:'Gerente',receptionist:'Funcionária / recepção',attendant:'Atendente'}};
+vm.createContext(context);vm.runInContext(helper,context);
+assert.equal(context.auditText({action:'staff.update',detail:'Gerente; ativa=True; perfil=manager → Gerente; ativa=True; perfil=manager'}),'Cadastro de Gerente atualizado.');
+assert.equal(context.auditText({action:'staff.update',detail:'Maria; ativa=True; perfil=attendant → Maria; ativa=False; perfil=attendant'}),'Cadastro de Maria atualizado: desativada.');
+assert.equal(context.auditText({action:'staff.update',detail:'Maria; ativa=True; perfil=attendant → Maria; ativa=True; perfil=manager'}),'Cadastro de Maria atualizado: perfil: Atendente → Gerente.');
+assert.equal(context.auditText({action:'staff.update',detail:'Cadastro de Maria atualizado: senha de acesso definida.'}),'Cadastro de Maria atualizado: senha de acesso definida.');
+assert.equal(context.auditText({action:'client.add',detail:'Cliente cadastrada'}),'Cliente cadastrada');
+console.log('PASS: screenshot legacy text and new audit entries display in Portuguese.');

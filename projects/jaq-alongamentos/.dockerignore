@@ -1,0 +1,11 @@
+bin
+obj
+App_Data
+work
+tests
+hosting/data
+hosting/backups
+hosting/.env
+.git
+**/__pycache__
+*.zip

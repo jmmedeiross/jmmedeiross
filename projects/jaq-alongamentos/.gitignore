@@ -1,0 +1,9 @@
+bin/
+obj/
+App_Data/
+*.user
+work/
+__pycache__/
+hosting/.env
+hosting/data/
+hosting/backups/
